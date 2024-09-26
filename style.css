@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --tappinRangi: #F3D7B7;
+    --ChalaNegr: #333333;
+    --salpalCofe: #F8F8F2;
+
+
+}
+
+header {
+    background-color: var(--tappinRangi);
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    padding: 22px 0 130px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-link {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.06px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: var(--ChalaNegr);
+}
+.main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 257px;
+}
+
+.left-wrapper {
+    max-width: 100%;
+    width: 464px;
+}
+
+.left-item {
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+
+}
+
+.main {
+    background-color: var(--tappinRangi);
+    height: 650px;
+
+}
+
+.left-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 47px;
+}
+
+.left-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+.right-wrapper::before {
+    content: url(image\ 40.png);
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(180deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+.main-wrapper2{
+    margin-top: 100px;;
+}
+.section3{
+    background-color: #C99B67;
+}
+.left-wrapper1{
+    color: white;
+
+}
+.coffee{
+    transform: scale(1.2);
+    margin-bottom: 150px;
+}
+.footer{
+    background-color: var(--tappinRangi);
+
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 62px 0;
+}
